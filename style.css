@@ -1,0 +1,495 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  color: black;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+header nav a {
+  margin-right: auto;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 15px;
+}
+
+header nav a:hover {
+  background-color: rgb(185, 0, 0);
+  border: 2px solid white;
+}
+
+img {
+  height: 50px;
+  width: 92px;
+}
+
+#Audi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1300px;
+  color: white;
+}
+
+#background-audi {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 85%;
+  background-image: url(./img/background-audi.jpeg);
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#desc-audi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 60%;
+}
+
+#desc-audi p {
+  margin-top: 20px;
+}
+
+#carros-audi {
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+}
+
+#carros-audi p {
+  color: black;
+  font-weight: 800;
+}
+
+#carros-audi h2 {
+  color: black;
+}
+
+#carros-audi div {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#carros-audi ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 20px;
+}
+
+#carros-audi ul li {
+  width: 250px;
+  height: 350px;
+  list-style: none;
+  color: white;
+  padding: 0 20px 0 20px;
+}
+
+#carros-audi ul li img {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Mercedes-Benz {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/background-mercedes.jpeg);
+  background-repeat: no-repeat;
+}
+
+#carros-mercedes {
+  display: flex;
+  width: 33%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+#carros-mercedes p {
+  color: darkgray;
+  font-weight: 800;
+}
+
+#carros-mercedes h2 {
+  color: antiquewhite;
+}
+
+#carros-mercedes div {
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#mercedes-central {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  height: 100vh;
+  width: 34%;
+}
+
+#mercedes-central h1 {
+  margin-top: 20px;
+}
+
+#mercedes-central p {
+  margin-top: 20px;
+}
+
+#carros-mercedes ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 20px;
+}
+
+#carros-mercedes ul li {
+  width: 250px;
+  height: 350px;
+  list-style: none;
+  color: white;
+  padding: 0 20px 0 20px;
+}
+
+#carros-mercedes ul li img {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Lamborghini {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/backgroud-lambo.jpeg);
+  background-repeat: no-repeat;
+}
+
+#desc-lamborghini {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 34%;
+  color: antiquewhite;
+}
+
+#desc-lamborghini h1 {
+  margin-top: 20px;
+}
+
+#desc-lamborghini p {
+  padding: 20px;
+}
+
+#carros-lamborghini {
+  display: flex;
+  width: 33%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+#carros-lamborghini div {
+  padding: 10px;
+}
+
+#carros-lamborghini ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 20px;
+}
+
+#carros-lamborghini ul li {
+  width: 250px;
+  height: 350px;
+  font-weight: 800;
+  list-style: none;
+  padding: 0 20px 0 20px;
+  border-radius: 20px;
+  box-shadow: rgba(230, 226, 34, 0.56) 0px 22px 70px 4px;
+}
+
+#carros-lamborghini ul li img {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Porsche {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/background-porsche.jpg);
+  background-repeat: no-repeat;
+}
+
+#desc-porsche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 34%;
+  color: antiquewhite;
+}
+
+#desc-porsche h1 {
+  margin-top: 100px;
+}
+
+#desc-porsche p {
+  padding: 20px;
+}
+
+#carros-porsche {
+  display: flex;
+  width: 63%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+#carros-porsche ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px 20px;
+}
+
+#carros-porsche ul li {
+  display: flex;
+  margin: 10px;
+  width: 250px;
+  height: 450px;
+  font-weight: 800;
+  list-style: none;
+  padding: 0 20px 0 20px;
+  border-radius: 20px;
+  box-shadow: rgba(236, 124, 32, 0.56) 0px 22px 70px 4px;
+}
+
+#carros-porsche ul li img {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#Ferrari {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/background-ferrari.jpg);
+  background-repeat: no-repeat;
+}
+
+#desc-ferrari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 44%;
+  color: antiquewhite;
+}
+
+#desc-ferrari h1 {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+#desc-ferrari p {
+  padding: 20px;
+  margin-right: 100px;
+}
+
+#carros-ferrari-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 53%;
+  height: 100vh;
+  background-color: transparent;
+}
+
+#carros-ferrari-up ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding: 90px 80px 0px 20px;
+}
+
+#carros-ferrari-up ul li {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+  height: 350px;
+  font-weight: 800;
+  list-style: none;
+  padding: 20px 20px 0 20px;
+  border-radius: 20px;
+  box-shadow: rgba(236, 32, 32, 0.56) 0px 22px 70px 4px;
+}
+
+#carros-ferrari-up ul li img {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#carros-ferrari-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 53%;
+  margin: 40px;
+  width: 200px;
+  height: 320px;
+  font-weight: 800;
+  list-style: none;
+  padding: 20px 20px 0px 20px;
+  border-radius: 20px;
+  box-shadow: rgba(236, 32, 32, 0.56) 0px 22px 70px 4px;
+  background-color: transparent;
+}
+
+.Extras {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+figure {
+  position: relative;
+  left: 0;
+  width: 400%;
+  animation: 30s slide infinite;
+}
+
+.slide {
+  position: relative;
+  width: 25%;
+  float: left;
+}
+
+.slide h1 {
+  position: absolute;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slide img {
+  width: 100%;
+  height: 100vh;
+}
+
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  20% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  50% {
+    left: -200%;
+  }
+  55% {
+    left: -300%;
+  }
+  65% {
+    left: -300%;
+  }
+  66% {
+    left: -200%;
+  }
+  74% {
+    left: -200%;
+  }
+  75% {
+    left: -100%;
+  }
+  85% {
+    left: -100%;
+  }
+  90% {
+    left: 0;
+  }
+  1000% {
+    left: 0;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  padding: 32px;
+  text-decoration: none;
+}
